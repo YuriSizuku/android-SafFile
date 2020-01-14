@@ -12,7 +12,7 @@ See `SafFile.java' in detail.
 2. You can write the file on EXT sdcard by `writeFileSaf` as well as the other Saf fucntions.
 
 ## [JNI Usage]  
-1. Use `build.cmd` to build `libyurihook.so` and put it to your app's lib  
+1. Use `build.cmd` to build `libyurihook.so`, then put `libyurihook.so` and `libxhook.so` to your app's lib  
 2. Load the `libyurihook.so` in your app  
 3. Use`nativeInitSafJavaCallbacks()` and  `nativeHookFile(String hooksoStr, String soPath)`  
    for jni file hook.  
