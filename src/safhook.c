@@ -5,6 +5,7 @@
 #include <android/log.h>
 #include <unistd.h>
 #include <error.h>
+#include <errno.h> //x86_64  arm64 errno in this 
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <dlfcn.h>
